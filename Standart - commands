@@ -1,4 +1,5 @@
 ls -l - list c правами
+ls -la - list cо скрытыми файлами
 ctrl+alt+F3 - без графики
 ctrl+alt+F7 - c графики
 man -k time - когда не знаешь полную команду
@@ -8,3 +9,9 @@ locate [readme.txt] - где находится файл или команда
 ps - какие процессы запущены в данный момент
 ctrl+Z - ping продолжает бежать
 fg - вернуть ping
+/media - дериктория для дисков
+cat | more | less - вывод содержимого файла
+touch - создать файл
+сp hello*.* Dir2 - скопировать все файл hello в Dir2
+cp file?.txt -v Dir2 - \\ -v показывает как копирует
+cp -R Dir1 NewDir - cкопировать всю Dir1 в NewDir
