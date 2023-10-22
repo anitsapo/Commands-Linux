@@ -14,4 +14,7 @@ cat | more | less - вывод содержимого файла
 touch - создать файл
 сp hello*.* Dir2 - скопировать все файл hello в Dir2
 cp file?.txt -v Dir2 - \\ -v показывает как копирует
-cp -R Dir1 NewDir - cкопировать всю Dir1 в NewDir
+cp -R Dir1 NewDir - cкопировать всю Dir1 в NewDir 
+mv secret.txt .secret.txt - создать скрытый файл
+mv - переместить файл и переименовать. Пример: mv *.txt ~/Dir3
+
