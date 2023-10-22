@@ -1,0 +1,13 @@
+mkdir Dir3 - создать директорию
+mkdir Dir3/Dir5 - создать Dir5 в Dir3 (уже существует)
+mkdir -p Dir4/Dir5 - cоздать Dir4 И в ней Dir5
+mv Dir1 NewDir1 - переименовать
+rmdir - стирает пустые директороии
+rm -R NewDir - стирает директории и файлы
+cp -R Dir2 Dir4 - скопировать в Dir4 Dir2
+
+Lincs
+ln -s /home/denis/Documents/Dir4 MyLinkDir4 - ссылка на полный путь название ссылки
+mv MeLinkDir4 ~/Desktop - переместить link на Desktop
+Линков может быть несколько на один файл или директорию
+ln file2.txt file2duplicate - полный дубликат файл, при изменении одного из файлов оба меняются
