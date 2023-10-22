@@ -1,3 +1,10 @@
 ls -l - list c правами
 ctrl+alt+F3 - без графики
-ctrl+alt+F7 - без графики
+ctrl+alt+F7 - c графики
+man -k time - когда не знаешь полную команду
+whatis uptime - какая команда
+where uptime - где находится 
+locate readme.txt - где находится файл или команда
+ps - какие процессы запущены в данный момент
+ctrl Z - ping продолжает бежать
+fg - вернуть ping
