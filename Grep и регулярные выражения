@@ -3,3 +3,16 @@ grep linux ./* -искать слово linux в текущей дирек-ии 
 grep -i - игнорировать регистр
 grep .gov mydatfile.doc - найти .gov в файле
 grep [A-Za-z._-] - найти любой один символ
+grep -E "[A-Za-z\.]*@[A-Za-z]*.gov" - вывести все emails .gov в madatfile.doc
+grep -E (kgb.gov | intel.com) mydatfile.doc - вывести kgb.gov | intel.com
+
+Перенаправление ввода/вывода 
+sort name.txt > names_sorted.txt -сохранить в файл новый
+>> - сохранить в файл который уже есть
+grep anna /etc/* 2> errors.txt - вывести только результаты ошибок перенаправленные в файл
+grep anna/etc/* 2> /dev/null - перенаправлять ошибки в никуда
+grep anna/etc/* > good.txt 2> nogood.txt
+grep anna/etc/* &> results.txt - сохранить ошибки и хорошие результаты в один файл
+sort --output =some.txt some.txt - переместить файл так чтобы в нем оказался отсартированный тот же файл
+cat /dev/null>some.txt - обнулить файл
+
