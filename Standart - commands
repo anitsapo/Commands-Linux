@@ -17,4 +17,12 @@ cp file?.txt -v Dir2 - \\ -v показывает как копирует
 cp -R Dir1 NewDir - cкопировать всю Dir1 в NewDir 
 mv secret.txt .secret.txt - создать скрытый файл
 mv - переместить файл и переименовать. Пример: mv *.txt ~/Dir3
+find - ищет файлы
+find /home -name "*.txt" - найти все txt файлы в /home
+wc linux-history.txt - выдает кол-во слов и символов
+wc -l - кол-во строк
+wc -w - кол-во слов
+sort names.txt - cортирует слова в файле по алфавиту или по символам
+sort -n numbers.txt - сортирует цифры по возрастанию
+сat -d ">" -f 3 file.txt | sort - вывести из файл после делиметра (-d) 3-й по счету и отсортировать 
 
