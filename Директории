@@ -6,7 +6,7 @@ rmdir - стирает пустые директороии
 rm -R NewDir - стирает директории и файлы
 cp -R Dir2 Dir4 - скопировать в Dir4 Dir2
 
-Lincs
+Links
 ln -s /home/denis/Documents/Dir4 MyLinkDir4 - ссылка на полный путь название ссылки
 mv MeLinkDir4 ~/Desktop - переместить link на Desktop
 Линков может быть несколько на один файл или директорию
