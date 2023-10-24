@@ -1,0 +1,17 @@
+Первая бухва
+- файл
+d - Директория
+l - Линк
+Последня буква x - нужна на скриптах, чтобы запустить скрип
+                    на директории, значит в директорию можно заходить
+sudo chown petya Dir1 - сделать petya админим директори Dir1
+sudo chgrp Programmers vasya.txt - поменять группу файла
+chmod o+x anna.txt - ofthers + x добавить
+chmod g-w anna.txt - группа - w -запись
+chmod g-w,o+x anna.txt - группа - w -запись и ofthers + x добавить
+chmod a=r anna.txt - всем all чтение r
+
+
+
+
+
