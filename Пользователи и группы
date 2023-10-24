@@ -1,0 +1,18 @@
+sudo useradd -m user1 - cоздать пользователя user1 с домашней директорией
+  -m - создать домашнюю директорию 
+sudo passwd user1 - создать пароль
+cd /etc/skel/ - директория "склет" для создания стандарной папки в home
+sudo userdel user1 - стереть user1 не стирая его home директорию
+sudo userdel -r user1 - стереть user1 вместе с директорией
+sudo groupadd Programmers - создать группу
+sudo groupdel Programmers - стереть группу
+sudo usermod -aG Programmers anna - добавить anna в группу Programmers
+sudo deluser anna Programmers - удалить anna из группы Programmers
+sudo usermod -aG sudo anna - добавить в группу администраторов пользователя anna
+
+cat /etc/passwd - все пользватели в системе
+Пример
+vasya:x:1001:1001::/home/vasya
+  x - пароль в другом файле
+  1001 - user ID
+  1001 - группа 
