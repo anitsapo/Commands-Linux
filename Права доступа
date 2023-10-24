@@ -11,6 +11,22 @@ chmod g-w anna.txt - группа - w -запись
 chmod g-w,o+x anna.txt - группа - w -запись и ofthers + x добавить
 chmod a=r anna.txt - всем all чтение r
 
+Цифровой метод 
+r=4 w=2 x=1
+rwx - 7
+rw  - 6
+r-x - 5
+r-- - 4
+-wx - 3
+-w- - 2
+--x - 1
+--- - 0
+Cтикибит
+sudo chmod o+t Dir1
+t - стирать могут не все, а только владелец файла. Делается только на директории
+sudo chmod 1777 Dir1 - добавить t
+
+
 
 
 
