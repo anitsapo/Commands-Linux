@@ -1,0 +1,20 @@
+top - процессы
+  Сортировать процессы
+  shift + P - процессы по CPU
+  shift + M - по памяти
+  q - выйти
+free -h - показать сколько памяти
+ps - рабочие процессы
+  ps -u anna - процессы пользователя
+  ps x - все Users
+  ps -aux 
+    a -all
+    u -user
+    x -все процессы
+  ps -aux | grep bash - вывести bash строки
+
+Логи
+cd /var/log - директория с логами
+sudo dmesg - лог Linux ядра
+sido dmesg | grep sda - первый диск
+
