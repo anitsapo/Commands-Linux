@@ -7,4 +7,26 @@ tar tf mytar.tar -
 tar xtf mytar.tar - распоковать
   x - распоковать
 
+Команды сжатия файла 
+gzip mytar2.tar - сжать
+ungzip mytar2.tar.gz - раскоменсировать
+bzip2 mytar2.tar
+unbzip2 mytar2.tar.bz
+xz mytar2.tar
+unxz mytar2.tar.xz
+
+Арихивировать и компенсировать файл
+tar cvzf myGZIP.gz Folder1 - какой файл создать, какой использовать
+  z - сжать файл с помощью gzip
+tar cjf myBZIP.bz2 Folder1 - какой файл создать, какой использовать
+  j - сжать файл bzip2
+tar cJf myXZ.xz Folder1 - какой файл создать, какой использовать
+  J - сжать файл с помощью xz
+tar xvf myBZIP2.bz2 - распоковать файл
+zip -r myZIP.zip Folder1 - архив как в windows
+unzip myZIP.zip - распоковать
+tar -C /home/user -xvf archive.tar.gz - распоковать в определенную папку
+
+
+
 
